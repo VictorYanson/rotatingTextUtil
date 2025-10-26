@@ -48,7 +48,7 @@
             const colorIndex = index % this.wordCount; // Cycle through the word count, not the full list
             const color = colors[colorIndex % colors.length];
 
-            return `<span class="word-item" style="color: ${color};">${word}</span>`;
+            return `<span class="word-item" style="color: inherit;">${word}</span>`;
         }).join('');
     }
 
