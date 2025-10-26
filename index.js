@@ -69,7 +69,7 @@
                 vertical-align: bottom;
                 overflow: hidden;
                 line-height: 1.2;
-                height: 1.2em; /* CRITICAL: Sets the clipping height */
+                height: 1.25em; /* CRITICAL: Sets the clipping height */
                 font-weight: 800;
             }
             .word-stack {
